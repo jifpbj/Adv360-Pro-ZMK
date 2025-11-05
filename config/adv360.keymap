@@ -21,6 +21,24 @@
             hold-trigger-on-release;
             bindings = <&kp>, <&kp>;
         };
+
+        parenthesis_less_than: parenthesis_less_than {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PARENTHESIS_LESS_THAN";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp LESS_THAN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        parenthsis_greater_than: parenthsis_greater_than {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PARENTHSIS_GREATER_THAN";
+            bindings = <&kp RIGHT_PARENTHESIS>, <&kp GREATER_THAN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     combos {
@@ -34,6 +52,38 @@
         rh-tab {
             bindings = <&kp TAB>;
             key-positions = <15 16>;
+        };
+
+        backspace-combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <24 23>;
+            require-prior-idle-ms = <130>;
+        };
+
+        forward-slash-rh {
+            bindings = <&kp SLASH>;
+            key-positions = <42 56>;
+        };
+
+        hr-r-bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <43 42>;
+        };
+
+        hr-l-bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <41 42>;
+            require-prior-idle-ms = <130>;
+        };
+
+        l-parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <55 56>;
+        };
+
+        r-parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <56 57>;
         };
     };
 
