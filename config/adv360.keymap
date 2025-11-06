@@ -219,6 +219,11 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <40 54>;
         };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <48 50>;
+        };
     };
 
     keymap {
