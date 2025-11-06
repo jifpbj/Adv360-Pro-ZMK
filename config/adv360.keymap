@@ -126,7 +126,7 @@
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <23 41>;
+            key-positions = <22 40>;
         };
 
         at-sign {
@@ -136,7 +136,7 @@
 
         backtick {
             bindings = <&kp GRAVE>;
-            key-positions = <16 30>;
+            key-positions = <30 48>;
         };
 
         equals {
@@ -152,17 +152,17 @@
 
         percent {
             bindings = <&kp PERCENT>;
-            key-positions = <32 18>;
+            key-positions = <19 33>;
         };
 
         dollar {
             bindings = <&kp DOLLAR>;
-            key-positions = <17 31>;
+            key-positions = <18 32>;
         };
 
         hashtag {
             bindings = <&kp HASH>;
-            key-positions = <16 30>;
+            key-positions = <17 31>;
         };
 
         ampersand {
@@ -198,6 +198,26 @@
         spotlight {
             bindings = <&kp LG(SPACE)>;
             key-positions = <65 70>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <33 51>;
+        };
+
+        space-leader {
+            bindings = <&kp SPACE>;
+            key-positions = <32 33>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <31 49>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <40 54>;
         };
     };
 
