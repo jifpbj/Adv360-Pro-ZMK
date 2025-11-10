@@ -304,5 +304,16 @@
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
+
+        colemak_dh {
+            display-name = "Base";
+            bindings = <
+&kp EQUAL  &kp N1       &kp N2          &kp N3          &kp N4            &kp N5  &tog 1                                                                       &mo 4                      &kp N6  &kp N7             &kp N8           &kp N9           &kp N0       &kp MINUS
+&kp TAB    &kp Q        &kp W           &kp E           &kp R             &kp T   &none                                                                        &none                      &kp Y   &kp L              &kp I            &kp O            &kp P        &kp BSLH
+&kp ESC    &hm LCTRL A  &hm LEFT_ALT R  &hm LEFT_GUI S  &hm LEFT_SHIFT T  &kp G   &none                     &kp LEFT_GUI  &kp LALT       &kp LGUI   &kp RCTRL  &none                      &kp H   &hm RIGHT_SHIFT N  &hm RIGHT_GUI E  &hm RIGHT_ALT I  &hm RCTRL O  &kp SQT
+&kp LSHFT  &kp Z        &kp X           &kp C           &kp V             &kp B                                           &kp HOME       &kp PG_UP                                        &kp N   &kp M              &kp COMMA        &kp DOT          &kp FSLH     &kp RSHFT
+&mo 3      &kp GRAVE    &kp CAPS        &none           &none                     &mt LEFT_SHIFT BACKSPACE  &lt 1 DEL     &lt 2 END      &kp PG_DN  &lt 2 RET  &layer_tap_typing 3 SPACE          &kp UP             &kp DOWN         &kp LBKT         &kp RBKT     &mo 3
+            >;
+        };
     };
 };
