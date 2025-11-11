@@ -19,10 +19,9 @@
             tapping-term-ms = <280>;
             require-prior-idle-ms = <150>;
             flavor = "balanced";
-            hold-trigger-on-release;
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <169>;
+            quick-tap-ms = <200>;
         };
 
         parenthesis_less_than: parenthesis_less_than {
@@ -138,7 +137,7 @@
 
         caret {
             bindings = <&kp CARET>;
-            key-positions = <22 40>;
+            key-positions = <32 50>;
         };
 
         at-sign {
@@ -153,7 +152,7 @@
 
         equals {
             bindings = <&kp EQUAL>;
-            key-positions = <32 50>;
+            key-positions = <22 40>;
         };
 
         del {
@@ -219,7 +218,7 @@
 
         space-leader {
             bindings = <&kp SPACE>;
-            key-positions = <32 33>;
+            key-positions = <32 30>;
         };
 
         backslash {
