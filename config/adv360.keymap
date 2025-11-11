@@ -21,7 +21,7 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
 
-            quick-tap-ms = <250>;
+            quick-tap-ms = <270>;
         };
 
         parenthesis_less_than: parenthesis_less_than {
