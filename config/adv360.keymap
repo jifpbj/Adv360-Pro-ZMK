@@ -147,7 +147,7 @@
 
         backtick {
             bindings = <&kp GRAVE>;
-            key-positions = <30 48>;
+            key-positions = <17 31>;
         };
 
         equals {
@@ -173,7 +173,7 @@
 
         hashtag {
             bindings = <&kp HASH>;
-            key-positions = <17 31>;
+            key-positions = <30 48>;
         };
 
         ampersand {
